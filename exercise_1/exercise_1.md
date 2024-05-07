@@ -57,7 +57,10 @@ you want it to do. Ensure that:
 - You tell the bot what it is and what it is doing
 - You point out where the data is that you want it to reference
 - Maybe you want to give it a personality!
-`
+
+Paste the text data from your flat_earth_extract.txt file into the System Message and 
+simulate the API call.
+
 ### 4. Stretch - discuss scenarios for no relevant data
 
 Imagine a scenario where the user answered a question the bot couldn't answer

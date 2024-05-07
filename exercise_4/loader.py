@@ -61,7 +61,7 @@ def upsert_chunks_from(text_file):
 
         text = file.read()
 
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=x, chunk_overlap=y)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1500, chunk_overlap=150)
     chunks = text_splitter.split_text(text)
 
     for i, chunk in enumerate(chunks):

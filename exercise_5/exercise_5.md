@@ -3,7 +3,10 @@
 ## Aim
 
 The aim of the exercise is to:
-1. Complete you Chatbot class
+
+1. Complete you Chatbot class and connect it to your datastore
+2. Retreive relevant chunks and augment them into the chat
+3. Generate the answer
 
 The exercise is complete when your bot can answer a targeted 
 question referencing the book.
@@ -18,28 +21,25 @@ Either:
 2. Use the **ragbot.py** class in this directory
 
 
-
 ### 2. Connect it to Pinecone
 
-Amend the 
+Amend the retrieve_context() method so that it now points to a Pinecone index.
 
+Retrieve the relevant context and inject into the System Message.
 
-### 3. Create Your Index and Upsert
+Tip: you might just want to copy some of the methods from the last exercise.
 
-Use create_index() and upsert_chunks_from() functions to create the 
-Pinecone index that will store chunks for your bot . 
+### 4. Ask your Bot Questions
 
-Then upsert your chunks ready for your bot to use.
+Call the bot and get it to answer questions. Here are some examples:
 
-
-### 4. Query the Index
-
-Use the retrieve_chunks() function to embed a query and get the 
-closest vectors back.
-
-How do the results look for the question:
+Start with our constant question we've been using:
 
 > 'If the earth is not curved, why does only the top half of a ship when it is far away?'
 
+But why not try these:
 
+> 'Do the press speak favourable about Flat Earth Theory? Give me examples.'
+> 'Does the philosophical school of thought that pertains to a flat earth have a name?'
+> 'Has the Smithsonian Institute embraced Flat Earth theory?'
 

@@ -1,4 +1,4 @@
-extract -----
+excerpt -----
 94. In "Cornell's Geography" there is an "Illustrated proof of the Form
 of the Earth." A curved line on which is represented a ship in four
 positions, as she sails away from an observer, is an arc of 72 degrees,
@@ -18,7 +18,7 @@ with masts in proportion, and men are not quite 200 miles high,
 it is not what it is said to be--a proof of rotundity--but, either
 an ignorant farce or a cruel piece of deception. In short, it is a
 proof that the Earth is not a globe.
-extract -----
+excerpt -----
 48. In Mr. Proctor's "Lessons in Astronomy," page 15, a ship is
 represented as sailing away from the observer, and it is given in
 five positions or distances away on its journey. Now, in its first
@@ -40,7 +40,7 @@ true, are NOT true, it follows that the astronomer-artist fails to
 prove, pictorially, either that the Earth is a globe or a cylinder,
 and that we have, therefore, a reasonable proof that the Earth is
 not a globe.
-extract -----
+excerpt -----
 32. It is often said that, if the Earth were flat, we could see all
 over it! This is the result of ignorance. If we stand on the level
 surface of a plain or a prairie, and take notice, we shall find that
@@ -53,7 +53,7 @@ the sphere of our unaided vision. This is the reason why the hull
 of a ship disappears (in going away from us) before the sails; and,
 instead of there being about it the faintest shadow of evidence of
 the Earth's rotundity, it is a clear proof that Earth is not a globe.
-extract -----
+excerpt -----
 33. If the Earth were a globe, people--except those on the top--would,
 certainly, have to be "fastened" to its surface by some means or
 other, whether by the "attraction" of astronomers or by some other

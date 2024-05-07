@@ -40,7 +40,7 @@ def create_index():
     # Update the dimensions to reflect the number of vectors in OpenAI embedding model
     pc.create_index(
         name='questions',
-        dimension=n, # How many dimensions?
+        dimension=1536,
         metric='cosine',
         spec=ServerlessSpec(
             cloud='aws',
@@ -59,9 +59,9 @@ def get_embedding_for(text):
 
     )
 
-    # TODO make a call to this function and have a look at the OpenAI response
+
     # Adjust the function to return just the embedding
-    print(response)
+    return response.data[0].embedding
 
 
 # Function to upload vectors and associated question data
@@ -103,7 +103,8 @@ def query_questions(query):
     # After a short time you will see there are 10 vectors there
     print(index.describe_index_stats())
 
-    # TODO you'll have to embed the query before you query index
+    embedding = get_embedding_for(query)
+
     results = index.query(
         vector=embedding,
         top_k=5,
@@ -114,10 +115,10 @@ def query_questions(query):
 
 
 # Use this space to call functions
-get_embedding_for('How do I get a taxi in Boston?')
+#get_embedding_for('How do I get a taxi in Boston?')
 
 # Use these function calls to create and load
-#create_index()
-#load_questions()
+create_index()
+load_questions()
 
 
