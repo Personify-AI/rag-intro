@@ -108,6 +108,7 @@ def query_questions(query):
     results = index.query(
         vector=embedding,
         top_k=5,
+        include_metadata=True
     )
 
     return results
@@ -118,7 +119,9 @@ def query_questions(query):
 #get_embedding_for('How do I get a taxi in Boston?')
 
 # Use these function calls to create and load
-create_index()
-load_questions()
+#create_index()
+#load_questions()
 
+result = query_questions('How do I get a taxi in Boston?')
+print(result)
 

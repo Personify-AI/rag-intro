@@ -104,6 +104,7 @@ def query_questions(query):
     print(index.describe_index_stats())
 
     # TODO you'll have to embed the query before you query index
+    # TODO you'll have to alter this query to include_metadata (clue)
     results = index.query(
         vector=embedding,
         top_k=5,
